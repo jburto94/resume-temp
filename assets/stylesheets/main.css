@@ -46,3 +46,107 @@ table {
   border-spacing: 0;
 }
 
+
+/*
+  =====================================
+  Custom Styles
+  =====================================
+*/
+
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 16px/22px "Khula", sans-serif;
+}
+
+h1 {
+  font-size: 44px;
+  line-height: 44px
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+header {
+  color: #f7f8f9;
+}
+
+
+/*
+  =====================================
+  Primary Header
+  =====================================
+*/
+
+.primary-header {
+  background: #4daddd;
+  overflow: hidden;
+}
+
+.primary-header img {
+  float: right;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 40px 120px;
+}
+
+.primary-header h1, h2 {
+  margin-left: 140px;
+  font-weight: 300;
+}
+
+.primary-header h1 {
+  margin-top: 90px;
+  text-shadow: 1px 1px #4c505d;
+}
+
+.primary-header h2 {
+  margin-bottom: 30px;
+  opacity: 0.5;
+}
+
+/*
+  =====================================
+  Navigation
+  =====================================
+*/
+
+.nav {
+  background: #3894d1;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 20px 10px;
+  text-transform: uppercase;
+}
+
+.nav ul {
+  margin-left: 140px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #f7f8f9;
+  opacity: 0.5;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid #f7f8f9;
+  opacity: 1.0;
+}

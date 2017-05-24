@@ -59,7 +59,7 @@ table {
 }
 
 body {
-  font: 400 16px/22px "Khula", sans-serif;
+  font: 400 14px/22px "Khula", sans-serif;
 }
 
 h1 {
@@ -68,11 +68,12 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 28px;
 }
 
 h3 {
-  font-size: 21px;
+  font-size: 24px;
+  color: #2cc6ce
 }
 
 h4 {
@@ -82,6 +83,10 @@ h4 {
 
 header {
   color: #f7f8f9;
+}
+
+table {
+  margin-bottom: 30px;
 }
 
 
@@ -168,4 +173,114 @@ header {
   padding: 50px 120px 0 140px;
   color: #f7f8f9;
   font-size: 18px;
+}
+
+/*
+  =====================================
+  Columns
+  =====================================
+*/
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container,
+.col-sm,
+.col-lg {
+  box-sizing: border-box;
+}
+
+.col-sm {
+  width: 35%;
+  padding-left: 140px;
+  float: left;
+  background: #f9fafb;
+}
+
+.col-lg {
+  width: 65%;
+  background: #e2e6e9;
+  padding-right: 120px;
+  box-shadow: 5px 0 3px #95a0a3 inset;
+  float: right;
+}
+
+.col-sm,
+.col-lg {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 35px;
+  padding-bottom: 30px;
+}
+
+/*
+  =====================================
+  Small Column Tables
+  =====================================
+*/
+
+.col-sm table {
+  width: 80%;
+}
+
+.col-sm tbody th {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.col-sm table th,
+.col-sm table td {
+  text-align: left;
+  padding: 10px 0;
+}
+
+/*
+  =====================================
+  Personal
+  =====================================
+*/
+
+.personal tbody tr {
+  border-bottom: 0.5px solid #4c5557;
+}
+
+/*
+  =====================================
+  Software
+  =====================================
+*/
+
+.progress-bar {
+  background: #95a0a3;
+  border-radius: 2px;
+  height: 6px;
+  width: 150px;
+}
+
+.bar-fill {
+  background: #3894d1;
+  height: 6px;
+  border-radius: 2px;
+}
+
+.f100 {
+  width: 100%;
+}
+
+.f90 {
+  width: 90%;
+}
+
+.f70 {
+  width: 70%;
+}
+
+.f50 {
+  width: 50%;
+}
+
+.f30 {
+  width: 30%;
 }

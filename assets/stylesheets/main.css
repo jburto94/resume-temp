@@ -185,6 +185,7 @@ table {
 .container {
   width: 100%;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .container,
@@ -202,7 +203,6 @@ table {
 
 .col-lg {
   width: 65%;
-  height: 1097px;
   background: #e2e6e9;
   padding-right: 120px;
   padding-left: 50px;
@@ -215,6 +215,7 @@ table {
   display: inline-block;
   vertical-align: top;
   padding-top: 35px;
+  height: 1090px;
 }
 
 /*
@@ -293,7 +294,7 @@ table {
   opacity: 0.7;
   padding: 15px;
   border-radius: 50%;
-  margin: 5px;
+  margin: 0 5px 5px 5px;
 }
 
 .hobbies p {
@@ -318,7 +319,7 @@ table {
 }
 
 .history p {
-  padding-bottom: 10px;
+  padding: 5px 0 10px 0;
   border-bottom: 1px solid #4c5557;
 }
 
@@ -364,8 +365,46 @@ table {
   =====================================
 */
 
-footer {
+.media {
+  box-sizing: border-box;
   width: 100%;
-  margin: 0 auto;
-  height: 300px;
+  text-align: center;
+  background: #4daddd;
+  padding: 25px 180px;
+}
+
+.social {
+  padding: 10px 30px;
+  display: inline-block;
+}
+
+.social img {
+  background: #3894d1;
+  padding: 13px;
+  border-radius: 50%;
+}
+
+.social p {
+  color: #f7f8f9;
+}
+
+/*
+  =====================================
+  Social Media
+  =====================================
+*/
+
+footer {
+  background: #3894d1;
+  padding: 15px 140px;
+}
+
+footer p {
+  text-align: center;
+  color: #f7f8f9;
+  display: inline-block;
+}
+
+.site {
+  float: right;
 }
